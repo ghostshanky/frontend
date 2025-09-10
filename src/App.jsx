@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
  * Example: VITE_BACKEND_URL=https://arc-ai.onrender.com
  */
 const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://arc-ai.onrender.com";
-VITE_BACKEND_URL=https://arc-ai.onrender.com
+VITE_BACKEND_URL="https://arc-ai.onrender.com";
 export default function App() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]); // {role:'user'|'assistant', text}
