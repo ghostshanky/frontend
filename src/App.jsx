@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
  * Set VITE_BACKEND_URL in .env or Netlify/Vercel environment variables.
  * Example: VITE_BACKEND_URL=https://arc-ai.onrender.com
  */
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://arc-ai.onrender.com";
 
 export default function App() {
   const [input, setInput] = useState("");
